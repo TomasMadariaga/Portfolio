@@ -5,7 +5,7 @@ import { FaFileDownload } from "react-icons/fa";
 export const AboutButton = () => {
   return (
     <Link
-      className="flex bg-military-green w-fit px-5 gap-3 py-1 rounded-lg mt-5 transition-all hover:bg-white hover:text-military-green"
+      className="flex bg-military-green w-fit px-5 gap-3 py-1 rounded-lg mt-5 transition-all duration-300 hover:bg-white hover:text-military-green"
       to="/about"
     >
       <button className="text-base">About me</button>
@@ -17,7 +17,7 @@ export const AboutButton = () => {
 export const ContactButton = () => {
   return (
     <Link
-      className="flex bg-military-green w-fit px-5 gap-3 py-1 rounded-lg mt-5 transition-all hover:bg-white hover:text-military-green"
+      className="flex bg-military-green w-fit px-5 gap-3 py-1 rounded-lg mt-5 transition-all duration-300 hover:bg-white hover:text-military-green"
       to="/contact"
     >
       <button className="text-base">Contact me</button>

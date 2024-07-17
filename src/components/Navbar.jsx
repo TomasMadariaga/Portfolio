@@ -56,25 +56,25 @@ export const Navbar = () => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        <li className="text-xl transition-all hover:text-military-green">
+        <li className="text-xl transition-all duration-200 hover:text-military-green">
           <Link className="flex gap-2" to="/">
             <BiHomeAlt2 className="size-6" />
             Home
           </Link>
         </li>
-        <li className="text-xl transition-all hover:text-military-green">
+        <li className="text-xl transition-all duration-200 hover:text-military-green">
           <Link className="flex gap-2" to="/projects">
             <FaCode className="size-6" />
             Projects
           </Link>
         </li>
-        <li className="text-xl transition-all hover:text-military-green">
+        <li className="text-xl transition-all duration-200 hover:text-military-green">
           <Link className="flex gap-2" to="/about">
             <MdPersonOutline className="size-6" />
             About
           </Link>
         </li>
-        <li className="text-xl transition-all hover:text-military-green">
+        <li className="text-xl transition-all duration-200 hover:text-military-green">
           <Link className="flex gap-2" to="/contact">
             <LuPhoneCall className="size-6" />
             Contact me

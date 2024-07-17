@@ -4,8 +4,8 @@ import { AboutButton, ContactButton } from "./Buttons";
 
 export const Home = () => {
   return (
-    <div className="flex-grow">
-      <div className="flex justify-evenly min-h-96 mt-28 items-center">
+    <div className="flex-grow mt-36">
+      <div className="flex justify-evenly min-h-96 items-center">
         <div className="font-bold font-mono text-4xl">
           <h1>Hello there!</h1>
           <h1>

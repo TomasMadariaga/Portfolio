@@ -40,7 +40,7 @@ export const SubmitButton = () => {
 export const DownloadButtonSpanish = () => {
   return (
     <a
-      href="../assets/cv-espanol.pdf"
+      href="./cv-espanol.pdf"
       download="cv-espanol.pdf"
       className="bg-military-green flex items-center text-base gap-3 px-5 py-3 w-fit font-bold rounded-lg mt-5 transition-all hover:bg-white hover:text-military-green"
     >
@@ -53,7 +53,7 @@ export const DownloadButtonSpanish = () => {
 export const DownloadButtonEnglish = () => {
   return (
     <a
-      href="../assets/cv-english.pdf"
+      href="./cv-english.pdf"
       download="cv-english.pdf"
       className="bg-military-green flex items-center text-base gap-3 px-5 py-3 w-fit font-bold rounded-lg mt-5 transition-all hover:bg-white hover:text-military-green"
     >

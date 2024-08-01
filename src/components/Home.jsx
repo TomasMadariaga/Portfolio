@@ -1,5 +1,6 @@
 import { TypeWriter } from "./TypeWriter";
 import IMG from "../assets/img-01.jpg";
+import IMG_01 from "../assets/img-profile.jpeg"
 import { AboutButton, ContactButton } from "./Buttons";
 
 export const Home = () => {
@@ -17,7 +18,7 @@ export const Home = () => {
             <ContactButton />
           </div>
         </div>
-        <img className="rounded-full w-96 h-96 object-cover select-none" src={IMG} />
+        <img className="rounded-full w-96 h-96 object-cover select-none" src={IMG_01} />
       </div>
     </div>
   );

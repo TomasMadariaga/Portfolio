@@ -18,7 +18,7 @@ export const Home = () => {
             <ContactButton />
           </div>
         </div>
-        {/* <img className="rounded-full w-96 h-96 object-cover select-none" src={IMG_01} /> */}
+        <img className="rounded-full w-96 h-96 object-cover select-none" src={IMG_01} />
       </div>
     </div>
   );
